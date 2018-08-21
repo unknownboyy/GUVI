@@ -74,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program9.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="program9.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program9.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program10.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program10.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -105,6 +114,7 @@
         <option value="$PROJECT_DIR$/program7.py" />
         <option value="$PROJECT_DIR$/program8.py" />
         <option value="$PROJECT_DIR$/program9.py" />
+        <option value="$PROJECT_DIR$/program10.py" />
       </list>
     </option>
   </component>
@@ -263,6 +273,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>

@@ -1,1 +1,3 @@
-print(len(input()))
+n=input()
+int(n)
+print(len(n))

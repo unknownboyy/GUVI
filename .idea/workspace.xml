@@ -65,11 +65,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="program8.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="program8.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/program8.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="program9.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/program9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -95,6 +104,7 @@
         <option value="$PROJECT_DIR$/program6.py" />
         <option value="$PROJECT_DIR$/program7.py" />
         <option value="$PROJECT_DIR$/program8.py" />
+        <option value="$PROJECT_DIR$/program9.py" />
       </list>
     </option>
   </component>
@@ -246,6 +256,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/program9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,12 @@
-def isprime(n):
-    for i in range(2,int(n**0.5)+2):
-        if n%i==0:  return False
-    return True
 t=int(input())
 for _ in range(t) :
-    n=int(input())
-    if isprime(n):  print('Prime')
-    else:   print('Not prime')
+    n,k=map(int,input().split())
+    s=list(map(int,input().split()))
+    f=[]
+    for i in s:
+        if i<=k:
+            k-=i
+            f.append("1")
+        else:
+            f.append("0")
+    print("".join(f))

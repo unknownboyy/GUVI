@@ -1,2 +1,4 @@
-a,b,c=map(int,input().split())
-print(max(a,b,c))
+t=int(input())
+for _ in range(t) :
+    n=int(input())
+    

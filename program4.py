@@ -1,18 +1,20 @@
-for _ in range(int(input())):
+f=[0]*(160001)
+d=[i**2 for i in range(400)]
+for i in range(399):
+    for j in range(i+1,400):
+        f[d[j]-d[i]]=1
+t=int(input())
+for _ in range(t) :
     n=int(input())
-    arrival_time=list(map(int,input().split()))
-    depart_time=list(map(int,input().split()))
-    train_order=[]
-    for i in range(n):
-        train_order.append(['a',arrival_time[i]])
-        train_order.append(['d',depart_time[i]])
-    train_order=sorted(train_order,key=lambda x:x[1])
-    max_plaform_needed=0
-    temp_result=0
-    for i in range(2*n):
-        if train_order[i][0]=='a':
-            temp_result+=1
+    s=list(map(int,input().split()))
+    z=0
+    loser=True
+    while len(s)>0:
+        for i in s:
+            if f[z+i]:
+                s.remove(i);loser=not(loser)
+                break
         else:
-            temp_result-=1
-        max_plaform_needed=max(max_plaform_needed,temp_result)
-    print(max_plaform_needed)
+            break
+    print('Ghayeeth') if not(loser) else print('Siroj')
+

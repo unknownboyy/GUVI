@@ -1,0 +1,6 @@
+1.	Find the path which have the sum of values is X.
+2.	Find all path of a tree.
+3.	Find Mirror Image of tree.
+4.	Count the occurrence of no. of even and odd values.
+5.	Traverse the tree in zig-zag path.
+6.	Count all nodes at each level.

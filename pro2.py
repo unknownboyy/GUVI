@@ -1,10 +1,10 @@
-from math import acos,sin,cos,radians
-x1,y1=map(float,input().split())
-x2,y2=map(float,input().split())
-x1=radians(x1)
-x2=radians(x2)
-y1=radians(y1)
-y2=radians(y2)
-d=6371*acos(sin(x1)*sin(x2)+cos(x1)*cos(x2)*cos(y1-y2))
-#print(d)
-print(round(d,2))
+for _ in range(int(input())) :
+    n=int(input())
+    times=n//26+1
+    mod=n%26
+    if mod<=2:
+        print(times,0,0)
+    elif mod<=10:
+        print(0,times,0)
+    else:
+        print(0,0,times)

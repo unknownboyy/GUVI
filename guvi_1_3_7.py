@@ -1,6 +1,6 @@
 n=input()
 try:
-    n=int(n)
+    n=float(n)
     print('Yes')
 except:
     print('No')

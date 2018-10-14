@@ -1,17 +1,20 @@
-f=[True]*101
-for i in range(2,100+1):
-    if f[i]:
-        for j in range(i+i,100+1,i):
-            f[j]=False
-pp=[False]*201
-for i in range(2,101):
-    for j in range(2,101):
-        if f[i] and f[j] and i*j<201 and i!=j:
-            pp[i*j]=True
-for target_list in range(int(input())) :
-    n=int(input())
-    flag=False
+myprimes=[1]*201
+for i in range(2,200+1):
+    if myprimes[i]==1:
+        for j in range(i+i,200+1,i):
+            myprimes[j]=0
+semiprimes=[0]*250
+for i in range(2,201):
+    for j in range(2,201):
+        if myprimes[i] and myprimes[j] and i*j<250 and i!=j:
+            semiprimes[i*j]=1
+t=int(input())
+for _ in range(t) :
+    n=int(input());x=0
     for i in range(2,n-2):
-        if pp[i] and pp[n-i]:
-            flag=True;break
-    print('YES') if flag else print('NO')
+        if semiprimes[i] and semiprimes[n-i]:
+            x=1;break
+    if x==1:
+        print('YES')
+    else:
+        print('NO')

@@ -1,10 +1,11 @@
-for _ in range(int(input())) :
-    n=int(input())
-    times=n//26+1
-    mod=n%26
-    if mod<=2:
-        print(times,0,0)
-    elif mod<=10:
-        print(0,times,0)
+for i in range(int(input())):
+    n,k=map(int,input().split())
+    s=list(map(int,input().split()))
+    count=0
+    for i in s:
+        if i!=1:
+            count+=1
+    if count<=k:
+        print('YES')
     else:
-        print(0,0,times)
+        print('NO') 

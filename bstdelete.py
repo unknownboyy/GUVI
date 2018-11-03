@@ -18,9 +18,9 @@ def insert(root,key,parent):
     return root
 
 def inorder(root):
-    if root:
+    if root is not None:
         inorder(root.left)
-        print(root.key,end=' ')
+        print(root.key)
         inorder(root.right)
     
 def mydelete(root,key):

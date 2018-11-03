@@ -1,6 +1,8 @@
-for _ in range(int(input())) :
-    a,b,k=map(int,input().split())
-    if ((a+b)//k)%2==0:
-        print('CHEF')
+for _ in range(int(input())):
+    n,m=map(int,input().split())
+    a=list(map(int,input().split()))
+    b=list(map(int,input().split()))
+    if len(a)!=len(b):
+        print('Alice')
     else:
-        print('COOK')
+        print('Bob')

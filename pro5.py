@@ -1,4 +1,4 @@
-for _ in range(int(input())) :
-    n=int(input())
-    s=list(map(int,input().split()))
-    
+for _ in range(int(input())):
+    n = int(input());s = set(input())
+    for i in range(n-1):    s = s & set(input())
+    print(len(s))

@@ -70,7 +70,6 @@ little_cat_time=0
 big_cat_time=0
 tt=0
 while visited_shop<2**kk-1:
-    #print('while chala')
     if little_cat_time<=big_cat_time:
         visited_little,little_cat_time=move_little_cat(cc,s,little_cat,little_cat_time,k,visited_little)
     else:

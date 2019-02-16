@@ -8,16 +8,6 @@ import sys
 
 
 
-#
-# Complete the 'goodSegment' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER_ARRAY badNumbers
-#  2. INTEGER l
-#  3. INTEGER r
-#
-
 def goodSegment(badNumbers, l, r):
     badNumbers.sort()
     count = 0

@@ -3,7 +3,7 @@
 
 #function compute sum 
 # all sub-array 
-def SubArraySum(arr, n ): 
+def subArraySum(arr): 
 	result = 0
 
 	# computing sum of subarray 
@@ -18,7 +18,7 @@ def SubArraySum(arr, n ):
 arr = [1, 2, 3] 
 n = len(arr) 
 print ("Sum of SubArray : ", 
-	SubArraySum(arr, n)) 
+	subArraySum(arr)) 
 
 # This code is contributed by 
 # TheGameOf256. 

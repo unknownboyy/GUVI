@@ -46,4 +46,4 @@ for i in edges:
         true_false.append('YES')
     else:
         true_false.append('NO')
-print(true_false)
+print(*true_false,sep='\n')

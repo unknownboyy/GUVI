@@ -22,7 +22,7 @@ def findBreakDuration(n, k, t, start, finish):
     s.append([t,t])
     max_time = 0
     for i in range(n-1):
-
+        rightshift(s)
 
 if __name__ == '__main__':
 

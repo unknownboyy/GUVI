@@ -1,10 +1,10 @@
 try:
-    n,k=map(int,input().split())
-    if k*2<=n:
-        print(1,k)
-    elif k>n:
+    number,k_value=map(int,input().split())
+    if k_value*2<=number:
+        print(1,k_value)
+    elif k_value>number:
         print(-1)
     else:
-        print(1,n-k)
+        print(1,number-k_value)
 except:
     print('Invalid Input')

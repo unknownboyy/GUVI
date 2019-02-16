@@ -1,11 +1,11 @@
 try:
-    a,b,f,k=map(int,input().split())
-    if b>=2*a:
-        print(k//2)
-    elif b>2*a-f:
-        print(k-1)
-    elif b>=a:
-        print(k)
+    alpha,beta,fafa,kuku=map(int,input().split())
+    if beta>=2*alpha:
+        print(kuku//2)
+    elif beta>2*alpha-fafa:
+        print(kuku-1)
+    elif beta>=alpha:
+        print(kuku)
     else:
         print(-1)
 except:

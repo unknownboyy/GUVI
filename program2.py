@@ -1,12 +1,9 @@
-t=int(input())
-for _ in range(t) :
-    n,k=map(int,input().split())
-    s=list(map(int,input().split()))
-    f=[]
-    for i in s:
-        if i<=k:
-            k-=i
-            f.append("1")
-        else:
-            f.append("0")
-    print("".join(f))
+def func(money,arr):
+    c = [0]*(money+1);c[0] = 1
+    for i in range(len(arr)):
+        for j in range(1,money+1):
+            if j>=arr[i]:
+                c[j]+=c[j-arr[i]]
+                print('For Coin',arr[i],'For Amount',j,'Array :',*c)
+    return c[money]
+print(func(12,[1,2,5]))
